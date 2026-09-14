@@ -1,0 +1,109 @@
+ @font-face {
+    font-family: "Merriweather";
+    src: url("../fonts/Merriweather_36pt-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+ }
+
+ @font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter_18pt-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+ }
+ 
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ /*header{
+    margin-left: 60px;
+    margin-right: 60px 
+ }*/
+
+ header img{
+    width: 100px;
+    height: auto;
+ }
+
+ .linha-divisoria{
+   border: none;
+   border-top: 1px solid #e0e0e0;
+   margin: 0;
+   margin-bottom: 60px;
+ }
+
+/*parte vemelha do title*/
+ h1 span{
+   color: #c53637;
+ }
+
+ /*botao branco com letra preta */
+ a{
+   color: #19182a;
+   font-size: 14px;
+   font-weight: 600;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   width: 165px;
+   height: 46px;
+   display: inline-block;
+   text-align: center;
+   line-height: 46px;
+   border-radius: 36px;   
+   
+ }
+/*botao vermelho com letra branca*/
+ a span{
+   color: #FFFFFF;
+   background-color: #c53637;
+   width: 165px;
+   height: 46px;
+   display: inline-block;
+   text-align: center;
+   line-height: 46px;
+   border-radius: 36px;
+  
+   
+   
+ }
+
+ h1{
+    font-family: /*"Merriweather"*/ 'Segoe UI', Verdana, sans-serif, Helvetica, sans-serif, serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.0;
+}
+
+p{
+    font-family: /*"Inter"*/ 'Segoe UI', Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top:  15px;
+    margin-bottom: 15px;
+
+}
+
+.foto-coração-inicial{
+   width: 768px;
+   display: block;
+
+}
+
+ body{
+    background-color: #fbf6f1;
+    color: #19182a;
+    margin-left:80px;
+ 
+}
+
+
+
+
+
+ 
+ /*h1,p,h2{
+    color: #1c1f21;
+ }/*
