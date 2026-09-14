@@ -89,7 +89,8 @@ p{
 .foto-coração-inicial{
    width: 768px;
    display: block;
-
+   margin-left: 1000px;
+  /*modificacao teste*/
 }
 
  body{
